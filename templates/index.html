@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Joseph Katua | Projects</title>
+
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- Bootstrap Icons (icons only, no framework) -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+
+  <!-- =========================
+       NAVBAR (GLOBAL)
+  ========================== -->
+  <nav id="navbar">
+    <div class="nav-container">
+
+      <a href="/" class="brand-logo">JK</a>
+
+      <!-- Desktop Links -->
+      <div class="nav-links">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/about" class="nav-link">About</a>
+        <a href="/skills" class="nav-link">Skills</a>
+        <a href="/services" class="nav-link">Services</a>
+        <a href="/projects" class="nav-link">Projects</a>
+        <a href="/contact" class="nav-link">Contact</a>
+      </div>
+
+      <!-- Desktop CV Button -->
+      <button id="downloadCVDesktop" class="btn btn-primary desktop-only">
+        Download CV
+      </button>
+
+      <!-- Mobile Toggle -->
+      <button id="mobileToggle" class="mobile-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="/" class="mobile-link">Home</a>
+      <a href="/about" class="mobile-link">About</a>
+      <a href="/skills" class="mobile-link">Skills</a>
+      <a href="/services" class="mobile-link">Services</a>
+      <a href="/projects" class="mobile-link">Projects</a>
+      <a href="/contact" class="mobile-link">Contact</a>
+      <a href="#" id="downloadCV" class="mobile-link">Download CV</a>
+    </div>
+  </nav>
+
+  <!-- =========================
+       HERO SECTION
+  ========================== -->
+  <section class="hero" id="home">
+    <div class="container hero-text">
+
+      <h1>
+        Hi, I'm <span>Joseph Katua</span>
+      </h1>
+
+     <div class="hero-roles">
+       <span id="roleText"></span>
+     </div>
+
+
+      <p class="hero-description">
+        Crafting digital experiences with 1+ years of expertise
+      </p>
+
+      <div class="hero-buttons">
+        <a href="/contact" class="btn btn-primary">
+          <i class="bi bi-envelope"></i> Get In Touch
+        </a>
+
+        <a href="/projects" class="btn btn-outline">
+          <i class="bi bi-briefcase"></i> View My Work
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER (ONCE, ROUTED) -->
+  <footer id="footer" class="footer">
+    <div class="container text-center">
+      <p class="footer-author">Made by Joseph Katua</p>
+      <p class="footer-copy">
+        © <span id=></span>2026 All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="/static/js/main.js"></script>
+
+</body>
+</html>

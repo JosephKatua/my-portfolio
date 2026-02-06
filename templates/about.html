@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About | Joseph Katua</title>
+
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<nav id="navbar">
+  <div class="nav-container">
+    <a href="/" class="brand-logo">JK</a>
+
+    <div class="nav-links">
+      <a href="/" class="nav-link">Home</a>
+      <a href="/about" class="nav-link">About</a>
+      <a href="/skills" class="nav-link">Skills</a>
+      <a href="/services" class="nav-link">Services</a>
+      <a href="/projects" class="nav-link">Portfolio</a>
+      <a href="/contact" class="nav-link">Contact</a>
+    </div>
+
+    <button id="downloadCVDesktop" class="btn-primary desktop-only">
+      Download CV
+    </button>
+
+    <button id="mobileToggle" class="mobile-toggle">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div id="mobileMenu" class="mobile-menu">
+    <a href="/" class="mobile-link">Home</a>
+    <a href="/about" class="mobile-link">About</a>
+    <a href="/skills" class="mobile-link">Skills</a>
+    <a href="/services" class="mobile-link">Services</a>
+    <a href="/projects" class="mobile-link">Projects</a>
+    <a href="/contact" class="mobile-link">Contact</a>
+    <button id="downloadCV" class="btn-primary">Download CV</button>
+  </div>
+</nav>
+
+<section id="about" class="about-section">
+  <div class="about-container">
+
+    <!-- Section Heading -->
+    <h2 class="about-heading">About Me</h2>
+
+    <!-- Image + Text -->
+    <div class="about-top">
+
+      <!-- Profile Image -->
+      <div class="about-image">
+        <img
+          src="/static/images/profile.jpeg"
+          alt="Joseph Katua"
+        />
+      </div>
+
+      <!-- About Text -->
+      <div class="about-text" style="text-align: justify;">
+        <p>
+          Hello! I'm Joseph Katua, a passionate software developer with over a year of
+          hands-on experience in building modern applications and digital solutions.
+          I specialize in creating user-friendly, efficient, and scalable software that
+          makes a real impact.
+        </p>
+
+        <p>
+          My journey in software development has equipped me with a diverse skill set,
+          ranging from front-end technologies to back-end systems. I'm constantly learning
+          and adapting to new technologies to deliver the best solutions for every project.
+        </p>
+
+        <p>
+          When I'm not coding, I enjoy exploring new tech trends, contributing to open-source
+          projects, and helping fellow developers grow in their careers.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Stats -->
+    <div class="about-stats">
+      <div class="stat">
+        <h3>1+</h3>
+        <span>Years Experience</span>
+      </div>
+
+      <div class="stat">
+        <h3>10+</h3>
+        <span>Projects Completed</span>
+      </div>
+
+      <div class="stat">
+        <h3>5+</h3>
+        <span>Happy Clients</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="footer" class="footer text-center">
+  <div class="container">
+    <p class="footer-author">Made by Joseph Katua</p>
+    <p class="footer-copy">
+      © <span id="year"></span>2026 All rights reserved.
+    </p>
+  </div>
+</footer>
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>
